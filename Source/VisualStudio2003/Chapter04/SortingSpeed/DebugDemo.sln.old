@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DebugDemoLogic", "SortingDll\DebugDemoLogic.vbproj", "{057FA2D6-5280-4393-BE33-C6631BA07451}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DebugDemoForm", "DebugDemoForm.vbproj", "{1AA3BEBF-5A57-486B-B4E1-84A24B1D5AB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+		ConfigName.2 = ReleaseCustom
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{1AA3BEBF-5A57-486B-B4E1-84A24B1D5AB9}.0 = {057FA2D6-5280-4393-BE33-C6631BA07451}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{057FA2D6-5280-4393-BE33-C6631BA07451}.Debug.ActiveCfg = Debug|.NET
+		{057FA2D6-5280-4393-BE33-C6631BA07451}.Debug.Build.0 = Debug|.NET
+		{057FA2D6-5280-4393-BE33-C6631BA07451}.Release.ActiveCfg = Release|.NET
+		{057FA2D6-5280-4393-BE33-C6631BA07451}.Release.Build.0 = Release|.NET
+		{057FA2D6-5280-4393-BE33-C6631BA07451}.ReleaseCustom.ActiveCfg = ReleaseCustom|.NET
+		{057FA2D6-5280-4393-BE33-C6631BA07451}.ReleaseCustom.Build.0 = ReleaseCustom|.NET
+		{1AA3BEBF-5A57-486B-B4E1-84A24B1D5AB9}.Debug.ActiveCfg = Debug|.NET
+		{1AA3BEBF-5A57-486B-B4E1-84A24B1D5AB9}.Debug.Build.0 = Debug|.NET
+		{1AA3BEBF-5A57-486B-B4E1-84A24B1D5AB9}.Release.ActiveCfg = Release|.NET
+		{1AA3BEBF-5A57-486B-B4E1-84A24B1D5AB9}.Release.Build.0 = Release|.NET
+		{1AA3BEBF-5A57-486B-B4E1-84A24B1D5AB9}.ReleaseCustom.ActiveCfg = Release|.NET
+		{1AA3BEBF-5A57-486B-B4E1-84A24B1D5AB9}.ReleaseCustom.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SqlDebug", "SqlDebug.vbproj", "{25E00B17-05B1-4234-AC07-5C21C167C48C}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{25E00B17-05B1-4234-AC07-5C21C167C48C}.Debug.ActiveCfg = Debug|.NET
+		{25E00B17-05B1-4234-AC07-5C21C167C48C}.Debug.Build.0 = Debug|.NET
+		{25E00B17-05B1-4234-AC07-5C21C167C48C}.Release.ActiveCfg = Release|.NET
+		{25E00B17-05B1-4234-AC07-5C21C167C48C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

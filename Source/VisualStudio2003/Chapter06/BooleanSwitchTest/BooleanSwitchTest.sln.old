@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BooleanSwitchTest", "BooleanSwitchTest.vbproj", "{74999BA0-648F-4433-B23B-66CD0A996617}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{74999BA0-648F-4433-B23B-66CD0A996617}.Debug.ActiveCfg = Debug|.NET
+		{74999BA0-648F-4433-B23B-66CD0A996617}.Debug.Build.0 = Debug|.NET
+		{74999BA0-648F-4433-B23B-66CD0A996617}.Release.ActiveCfg = Release|.NET
+		{74999BA0-648F-4433-B23B-66CD0A996617}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

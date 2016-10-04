@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LocalMonitor", "LocalMonitor\LocalMonitor.vbproj", "{0C431FCE-CEAA-4DD1-B39C-B7D208FEED47}"
+	ProjectSection(ProjectDependencies) = postProject
+		{938247CE-2129-436B-9133-48AF121B1E0A} = {938247CE-2129-436B-9133-48AF121B1E0A}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Heartbeat", "Heartbeat\Heartbeat.vbproj", "{938247CE-2129-436B-9133-48AF121B1E0A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HeartbeatClient", "HeartbeatClient\HeartbeatClient.vbproj", "{9CA4D5F1-4EE6-4EFC-AA25-37BDF22F2A06}"
+	ProjectSection(ProjectDependencies) = postProject
+		{938247CE-2129-436B-9133-48AF121B1E0A} = {938247CE-2129-436B-9133-48AF121B1E0A}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RemoteMonitor", "RemoteMonitor\RemoteMonitor.vbproj", "{1F37FA75-2C1B-4BA3-A02D-2B2680C6EBE4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{938247CE-2129-436B-9133-48AF121B1E0A} = {938247CE-2129-436B-9133-48AF121B1E0A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0C431FCE-CEAA-4DD1-B39C-B7D208FEED47}.Debug.ActiveCfg = Debug|.NET
+		{0C431FCE-CEAA-4DD1-B39C-B7D208FEED47}.Debug.Build.0 = Debug|.NET
+		{0C431FCE-CEAA-4DD1-B39C-B7D208FEED47}.Release.ActiveCfg = Release|.NET
+		{0C431FCE-CEAA-4DD1-B39C-B7D208FEED47}.Release.Build.0 = Release|.NET
+		{938247CE-2129-436B-9133-48AF121B1E0A}.Debug.ActiveCfg = Debug|.NET
+		{938247CE-2129-436B-9133-48AF121B1E0A}.Debug.Build.0 = Debug|.NET
+		{938247CE-2129-436B-9133-48AF121B1E0A}.Release.ActiveCfg = Release|.NET
+		{938247CE-2129-436B-9133-48AF121B1E0A}.Release.Build.0 = Release|.NET
+		{9CA4D5F1-4EE6-4EFC-AA25-37BDF22F2A06}.Debug.ActiveCfg = Debug|.NET
+		{9CA4D5F1-4EE6-4EFC-AA25-37BDF22F2A06}.Debug.Build.0 = Debug|.NET
+		{9CA4D5F1-4EE6-4EFC-AA25-37BDF22F2A06}.Release.ActiveCfg = Release|.NET
+		{9CA4D5F1-4EE6-4EFC-AA25-37BDF22F2A06}.Release.Build.0 = Release|.NET
+		{1F37FA75-2C1B-4BA3-A02D-2B2680C6EBE4}.Debug.ActiveCfg = Debug|.NET
+		{1F37FA75-2C1B-4BA3-A02D-2B2680C6EBE4}.Debug.Build.0 = Debug|.NET
+		{1F37FA75-2C1B-4BA3-A02D-2B2680C6EBE4}.Release.ActiveCfg = Release|.NET
+		{1F37FA75-2C1B-4BA3-A02D-2B2680C6EBE4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

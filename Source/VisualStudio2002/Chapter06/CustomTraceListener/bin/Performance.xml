@@ -1,0 +1,14 @@
+<trace>
+<entry>
+<time>00:00:57.227</time>
+<message>Entering procedure</message>
+<method>CustomTraceListener.Test.Main</method>
+<thread></thread>
+</entry>
+<entry>
+<time>00:00:57.367</time>
+<message>Leaving procedure</message>
+<method>CustomTraceListener.Test.Main</method>
+<thread></thread>
+</entry>
+</trace>

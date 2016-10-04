@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DebugAddIn", "DebugAddIn.vbproj", "{535259D0-3BAD-4EA0-8E16-9FC33E98294F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DebugAddInSetup", "DebugAddInSetup\DebugAddInSetup.vdproj", "{456DEF88-8A39-4CF8-9BF8-CF25DBBEDDA6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{535259D0-3BAD-4EA0-8E16-9FC33E98294F}.Debug.ActiveCfg = Debug|.NET
+		{535259D0-3BAD-4EA0-8E16-9FC33E98294F}.Debug.Build.0 = Debug|.NET
+		{535259D0-3BAD-4EA0-8E16-9FC33E98294F}.Release.ActiveCfg = Release|.NET
+		{535259D0-3BAD-4EA0-8E16-9FC33E98294F}.Release.Build.0 = Release|.NET
+		{456DEF88-8A39-4CF8-9BF8-CF25DBBEDDA6}.Debug.ActiveCfg = Debug
+		{456DEF88-8A39-4CF8-9BF8-CF25DBBEDDA6}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

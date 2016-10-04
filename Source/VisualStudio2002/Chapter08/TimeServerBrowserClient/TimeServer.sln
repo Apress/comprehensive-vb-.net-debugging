@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TimeServer", "http://localhost/TimeServer_2002/TimeServer.vbproj", "{1BB5B66C-C66B-474D-BE43-03E212F5DF3F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TimeServerClient", "TimeServerClient\TimeServerClient.vbproj", "{B2064CD5-D49D-4BF7-B31E-57025D69727C}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1BB5B66C-C66B-474D-BE43-03E212F5DF3F}.Debug.ActiveCfg = Debug|.NET
+		{1BB5B66C-C66B-474D-BE43-03E212F5DF3F}.Debug.Build.0 = Debug|.NET
+		{1BB5B66C-C66B-474D-BE43-03E212F5DF3F}.Release.ActiveCfg = Release|.NET
+		{1BB5B66C-C66B-474D-BE43-03E212F5DF3F}.Release.Build.0 = Release|.NET
+		{B2064CD5-D49D-4BF7-B31E-57025D69727C}.Debug.ActiveCfg = Debug|.NET
+		{B2064CD5-D49D-4BF7-B31E-57025D69727C}.Debug.Build.0 = Debug|.NET
+		{B2064CD5-D49D-4BF7-B31E-57025D69727C}.Release.ActiveCfg = Release|.NET
+		{B2064CD5-D49D-4BF7-B31E-57025D69727C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

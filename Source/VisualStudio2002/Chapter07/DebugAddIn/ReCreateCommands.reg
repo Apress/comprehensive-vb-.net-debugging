@@ -1,0 +1,5 @@
+REGEDIT4
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\VSA\7.0\PreloadAddinState]
+"DebugAddIn.Connect"=dword:1
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\VisualStudio\7.0\PreloadAddinState]
+"DebugAddIn.Connect"=dword:1

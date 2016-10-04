@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ThreadDeadlock", "ThreadDeadlock.vbproj", "{7864B20A-722A-41F1-BE06-6DCD4C444FED}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7864B20A-722A-41F1-BE06-6DCD4C444FED}.Debug.ActiveCfg = Debug|.NET
+		{7864B20A-722A-41F1-BE06-6DCD4C444FED}.Debug.Build.0 = Debug|.NET
+		{7864B20A-722A-41F1-BE06-6DCD4C444FED}.Release.ActiveCfg = Release|.NET
+		{7864B20A-722A-41F1-BE06-6DCD4C444FED}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
